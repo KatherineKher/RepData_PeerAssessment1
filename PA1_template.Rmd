@@ -64,6 +64,7 @@ summarizedData_day <- summarize(groupedData_day,
 ```{r}
 # Histogram of sum of steps per day
 ggplot(summarizedData_day, aes(sum_per_day))+ geom_histogram(fill="blue", alpha=1/2)+labs(title="Steps per Day")+labs(x="Sum of Steps per day")
+
 ```
 
 3. Calculate and report the mean and median of the total number of steps taken per day
@@ -145,6 +146,7 @@ summarized_newData_day <- summarize(grouped_newData_day,
 ```{r}
 # Histogram of sum of steps per day
 ggplot(summarized_newData_day, aes(sum_per_day))+ geom_histogram(fill="blue", alpha=1/2)+labs(title="Steps per Day")+labs(x="Sum of Steps per day")
+
 ```
 ```{r}
 # Calculate Mean & Median
